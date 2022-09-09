@@ -2,6 +2,11 @@
   font-family: "Barlow";
   src: url(./font/Barlow/Barlow-Regular.ttf);
 }
+@font-face {
+  font-family: "Barlow";
+  src: url(./font/Barlow/Barlow-Bold.ttf);
+  font-weight: 700;
+}
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +14,7 @@
 }
 body {
   display: grid;
-  grid-template: 10vh 90vh 100vh 100vh 100vh 100vh 100vh / 100vw;
+  grid-template: 10vh 90vh 80vh 100vh 100vh 100vh 100vh / 100vw;
   overflow-x: hidden;
   font-family: Barlow;
 }
@@ -218,4 +223,80 @@ header .buttons .button2 {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  cursor: pointer;
+}
+#section2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10vw;
+}
+#section2 article {
+  width: 468px;
+}
+#section2 article h2 {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #E61C5D;
+}
+#section2 article h1 {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+color: #112B3C;
+}
+#section2 article p {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 160%;
+color: #808080;
+margin: 24px 0;
+}
+#section2 article .stats {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr 1fr 1fr;
+}
+#section2 article .stats .item {
+  height: 86px;
+}
+#section2 article .stats .item h3 {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+color: #E61C5D;
+}
+#section2 article .stats .item p {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #808080;
+margin: 0 30px 0 0;
+}
+
+@media screen and (min-width: 1500px) {
+  #section1 article {
+    transform: scale(1.1);
+  }
+  #section1 img {
+    transform: scale(1.1);
+  }
+  #section2 article {
+    transform: scale(1.1);
+  }
+  #section2 img {
+    transform: scale(1.1);
+  }
 }
