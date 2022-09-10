@@ -235,31 +235,31 @@ header .buttons .button2 {
   width: 468px;
 }
 #section2 article h2 {
-font-family: 'Barlow';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 19px;
-letter-spacing: 0.2em;
-text-transform: uppercase;
-color: #E61C5D;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #e61c5d;
 }
 #section2 article h1 {
-font-family: 'Barlow';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 58px;
-color: #112B3C;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #112b3c;
 }
 #section2 article p {
-font-family: 'Barlow';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 160%;
-color: #808080;
-margin: 24px 0;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  color: #808080;
+  margin: 24px 0;
 }
 #section2 article .stats {
   display: grid;
@@ -269,22 +269,73 @@ margin: 24px 0;
   height: 86px;
 }
 #section2 article .stats .item h3 {
-font-family: 'Barlow';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 48px;
-color: #E61C5D;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #e61c5d;
 }
 #section2 article .stats .item p {
-font-family: 'Barlow';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-color: #808080;
-margin: 0 30px 0 0;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #808080;
+  margin: 0 30px 0 0;
 }
+#section3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 10vw;
+}
+#section3 .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+}
+#section3 .top .title {
+  width: 600px;
+}
+#section3 .top h2 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #e61c5d;
+}
+#section3 .top h1 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #112b3c;
+}
+#section3 nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#section3 nav div {
+  width: 48px;
+  height: 48px;
+  background: rgba(230, 28, 93, 0.04);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 12px;
+}
+
+/* ==============================RESPONSIVE============================== */
 
 @media screen and (min-width: 1500px) {
   #section1 article {
