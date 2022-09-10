@@ -286,16 +286,16 @@ header .buttons .button2 {
   margin: 0 30px 0 0;
 }
 #section3 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
   margin-left: 10vw;
+  flex-direction: column;
 }
 #section3 .top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80vw;
+  width: 89%;
+  margin-right: 10vw;
+  margin-bottom: 100px;
 }
 #section3 .top .title {
   width: 600px;
@@ -333,6 +333,73 @@ header .buttons .button2 {
   align-items: center;
   cursor: pointer;
   margin-left: 12px;
+}
+#section3 .slides {
+  display: flex;
+  flex-direction: row;
+  column-gap:30px;
+}
+#section3 .slides .slide {
+  box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.04);
+
+}
+#section3 .slides .slide img {
+  width: 370px;
+  height: 300px;
+}
+#section3 .slides .slide article {
+  width: 370px;
+  height: 200px;
+  border-radius: 0px 0px 16px 16px;
+  padding: 10px 20px;
+  box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.04);
+}
+#section3 .slides .slide article h1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 132%;
+  color: #112b3c;
+}
+#section3 .slides .slide article p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #112b3c;
+  margin: 7px 0;
+}
+#section3 .slides .slide article .rate {
+  padding: 5px;
+  background: rgba(255, 189, 57, 0.12);
+  border-radius: 38px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50px;
+  height: 25px;
+  margin-bottom: 5px;
+}
+#section3 .slides .slide article .rate p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffbd39;
+}
+#section3 .slides .slide article .buttom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#section3 .slides .slide article .buttom h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 132%;
+  color: #e61c5d;
+}
+#section3 .slides .slide article .buttom p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 132%;
+  color: #808080;
 }
 
 /* ==============================RESPONSIVE============================== */

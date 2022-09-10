@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style.css" />
     <title>Tripy</title>
     <link rel="icon" href="./img/logo.png" type="image/png" />
-    <script src="./script.js"></script>
     <!-- https://www.figma.com/file/kYErkXZOCdBA4dWtXne20W/Tripy-%F0%9F%8F%9D-%7C-Travel-Landing-Page-(Community)?node-id=0%3A1 -->
   </head>
   <body>
@@ -286,7 +285,7 @@
           <h1>The amazing places around the world</h1>
         </div>
         <nav>
-          <div class="arrow-left">
+          <div class="arrow-left" onclick="slideLeft()">
             <svg
               width="9"
               height="19"
@@ -300,7 +299,7 @@
               />
             </svg>
           </div>
-          <div class="arrow-right">
+          <div class="arrow-right" onclick="slideRight()">
             <svg
               width="9"
               height="19"
@@ -326,4 +325,5 @@
     <div></div>
     <div></div>
   </body>
+  <script src="./script.js"></script>
 </html>

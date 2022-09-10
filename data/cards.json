@@ -1,4 +1,4 @@
-{
+[
   {
     "id": 1,
     "location": "Prague, Czechia",
@@ -6,33 +6,33 @@
     "rate": 4.9,
     "price": "$200",
     "time": "10 days tour",
-    "image": "./data/img_card/card1.png"
-  }
+    "image": "./data/img-cards/card1.png"
+  },
   {
     "id": 2,
-    "location": "Prague, Czechia",
-    "desc": "Fall in love among the winding streets and snow-covered",
+    "location": "Beijing, China",
+    "desc": "History is not about the past but a map of the past",
     "rate": 4.9,
-    "price": "$200",
-    "time": "10 days tour",
-    "image": "./data/img_card/card1.png"
-  }
+    "price": "$450",
+    "time": "5 days tour",
+    "image": "./data/img-cards/card2.png"
+  },
   {
-    "id": 3,git 
-    "location": "Prague, Czechia",
-    "desc": "Fall in love among the winding streets and snow-covered",
+    "id": 3,
+    "location": "Paris, France",
+    "desc": "You don't want to pitch a tent and live inside the Louvre",
     "rate": 4.9,
-    "price": "$200",
+    "price": "$100",
     "time": "10 days tour",
-    "image": "./data/img_card/card1.png"
-  }
+    "image": "./data/img-cards/card3.png"
+  },
   {
     "id": 4,
-    "location": "Prague, Czechia",
-    "desc": "Fall in love among the winding streets and snow-covered",
+    "location": "İstanbul, Turkey",
+    "desc": "The unique character as a symbol of taste and ostentation",
     "rate": 4.9,
-    "price": "$200",
-    "time": "10 days tour",
-    "image": "./data/img_card/card1.png"
+    "price": "$150",
+    "time": "7 days tour",
+    "image": "./data/img-cards/card4.png"
   }
-}
+]
