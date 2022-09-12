@@ -1,3 +1,11 @@
+document.addEventListener(
+  "DOMContentLoaded",
+  function () {
+    console.log("load");
+  },
+  false
+);
+
 function getDate() {
   var val = document.querySelector("#dateInput").value;
   const sortieDate = document.querySelector(".sortieDate");
@@ -28,9 +36,11 @@ const slides = document.querySelector(".slides");
 fetch("./data/cards.json")
   .then((data) => data.json())
   .then((data) => {
-    Array.from(data).forEach((e) => {  
-      slides.innerHTML = slides.innerHTML + `
-      <div class="slide slide1">
+    Array.from(data).forEach((e) => {
+      slides.innerHTML =
+        slides.innerHTML +
+        `
+      <li class="slide slide1">
       <img src="${e.image}" alt="Image de présentation" />
       <article>
         <h1>${e.desc}</h1>
@@ -55,6 +65,47 @@ fetch("./data/cards.json")
           <p>${e.time}</p>
         </div>
       </article>
-    </div>`;
+    </li>`;
     });
   });
+
+const arrowLeft = document.querySelector(".arrow-left");
+const arrowRight = document.querySelector(".arrow-right");
+
+const cards = document.getElementsByClassName("slides");
+
+arrowLeft.addEventListener("click", function () {
+  Slider(0);
+});
+arrowRight.addEventListener("click", function () {
+  Slider(1);
+});
+var valeurcards = 1
+function Slider(val) {
+  if (val == 1) {
+    valeurcards -= 1;
+  } else if (val == 0) {
+    valeurcards += 1;
+  } else {
+    console.log("nn");
+  }
+console.log(valeurcards);
+  if (valeurcards == 1) {
+    slides.style.transform = "translateX(0)"
+  }
+  if (valeurcards == 2) {
+    slides.style.transform = "translateX(-392.5px)"
+  }
+  if (valeurcards == 3) {
+    slides.style.transform = "translateX(-785px)"
+  }
+  // if (valeurcards == 4) {
+  //   slides.style.transform = "translateX(-1177.5px)"
+  // }
+  if (valeurcards < 1) {
+    valeurcards = 1;
+  }
+  if (valeurcards > 3) {
+    valeurcards = 3;
+  }
+}

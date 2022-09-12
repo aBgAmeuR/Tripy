@@ -284,8 +284,8 @@
           <h2>TOUR PACKAGES</h2>
           <h1>The amazing places around the world</h1>
         </div>
-        <nav>
-          <div class="arrow-left" onclick="slideLeft()">
+        <nav class="arrows">
+          <button class="arrow-left" type="button">
             <svg
               width="9"
               height="19"
@@ -298,8 +298,8 @@
                 stroke="#E61C5D"
               />
             </svg>
-          </div>
-          <div class="arrow-right" onclick="slideRight()">
+          </button>
+          <button class="arrow-right" type="button">
             <svg
               width="9"
               height="19"
@@ -316,14 +316,14 @@
                 stroke-linejoin="round"
               />
             </svg>
-          </div>
+          </button>
         </nav>
       </div>
-      <div class="slides"></div>
+      <ul class="slides"></ul>
     </section>
     <div></div>
     <div></div>
-    <div></div>
+
+    <script src="./script.js"></script>
   </body>
-  <script src="./script.js"></script>
 </html>
