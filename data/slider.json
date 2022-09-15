@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Eleanor Pena",
+    "job": "UI/UX Designer",
+    "rate": 5,
+    "text": "Customer testimonials are more effective than paid marketing copy as they take the spotlight away from the seller to shine it on the customers.",
+    "img": "./data/img-slider/img1.png"
+  },
+  {
+    "name": "Theresa Webb",
+    "job": "Vlogger",
+    "rate": 5,
+    "text": "In promotion and advertising, a testimonial or show consists of a person's written statement extolling the virtue of a product.",
+    "img": "./data/img-slider/img2.png"
+  },
+  {
+    "name": "Annette Black",
+    "job": "Doctor",
+    "rate": 5,
+    "text": "Testimonials work because they aren''t strong sales pitches, they come across in an unbiased voice and establish trust",
+    "img": "./data/img-slider/img3.png"
+  }
+]
