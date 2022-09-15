@@ -23,7 +23,7 @@ function toMonthName(monthNumber) {
     month: "short",
   });
 }
-git 
+
 function getLoc() {
   var select = document.querySelector("#locInput");
   var val = select.options[select.selectedIndex].value;
@@ -154,12 +154,11 @@ fetch("./data/slider.json")
     });
   });
 
+// import { tns } from "./src/tiny-slider.js";
 
-import { tns } from "./src/tiny-slider.js";
-
-var slider = tns({
-  container: ".my-slider",
-  items: 3,
-  slideBy: "page",
-  autoplay: true,
-});
+// var slider = tns({
+//   container: ".my-slider",
+//   items: 3,
+//   slideBy: "page",
+//   autoplay: true,
+// });
